@@ -1,3 +1,26 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+.logo {
+  text-align: center;
+}
+
+.footer, .push {
+  height: 4em;
+}
+
 .title {
   text-align: center;
 }
@@ -15,7 +38,7 @@
 }
 
 .jumbotron .h1,.jumbotron h1 {
-  color:#5E84CF;
+  color:#006ab0;
 }
 
 .jumbotron p {
